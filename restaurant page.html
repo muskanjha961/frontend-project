@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the pink tree</title>
+    <link rel="stylesheet" href="restaurant page.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <img src="/images/logo.png" alt="The Pink Tree Logo" class="logo-img" />
+        <h1 class="logo-text">The Pink Tree</h1>
+      </div>
+      <ul class="navlinks">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <button class="btn" id="button1">Book Table</button>
+    </nav>
+    <div class="CONTAINER">
+      <div class="landing-para">
+        <span id="span1">Authentic & Delicious</span>
+        <h1>Experience Fine Dining <br />Like Never Before</h1>
+        <span id="span2"
+          >A serene escape filled with handcrafted flavors and charm.</span
+        ><br />
+        <button class="btn" id="button1">Order Now</button>
+        <button class="btn" id="button2">View Menu</button>
+      </div>
+    </div>
+
+    <div id="menu" class="dish-container">
+      <div class="dish-title">
+        <h1>OUR POPULAR DISHES</h1>
+
+        <div class="dishes-container">
+          <div class="dish1">
+            <img src="/images/donut.avif" alt="donut" />
+            <h1>Donut</h1>
+            <h2>$20</h2>
+            <p>
+              Freshly baked, perfectly glazed, and bursting with sweetness — our
+              donuts are pure happiness in every bite. 🍩
+            </p>
+            <br />
+            <button class="btn button">order now</button>
+          </div>
+
+          <!-- dish2 -->
+
+          <div class="dish2">
+            <img src="/images/cakes.avif" alt="cakes" />
+            <h1>Cake</h1>
+            <h2>$50</h2>
+            <p>
+              Our cakes are rich, moist, and beautifully layered — a slice of
+              pure celebration in every bite.
+            </p>
+            <br />
+            <button class="btn button">order now</button>
+          </div>
+
+          <!-- dish3 -->
+
+          <div class="dish1">
+            <img src="/images/cup cakes.avif" alt="cup-cakes" />
+            <h1>Cup-Cakes</h1>
+            <h2>$35</h2>
+            <p>
+              Soft, fluffy, and topped with dreamy swirls of frosting — our
+              cupcakes are little bites of big happiness.
+            </p>
+            <br />
+            <button class="btn button">order now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about section -->
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-img">
+          <img src="/images/chef image.jpg" alt="Our Chef" />
+        </div>
+
+        <div class="about-text">
+          <h2>About Our Bakery</h2>
+          <p class="subtitle">
+            Discover the passion and sweetness behind every treat we serve.
+          </p>
+
+          <ul>
+            <li>✔ Fresh Ingredients</li>
+            <li>✔ Expert Bakers</li>
+            <li>✔ Cozy Ambience</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- reason section -->
+
+    <section class="why-choose">
+      <h2>Why Choose Us?</h2>
+
+      <div class="why-container">
+        <div class="why-card">
+          <h3>Quality Food</h3>
+          <p>Made with love and premium ingredients.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Fast Service</h3>
+          <p>Quick delivery with fresh taste guaranteed.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Fresh Ingredients</h3>
+          <p>Only the finest and freshest ingredients.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Top Rated</h3>
+          <p>Loved by hundreds of happy customers.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL SECTION -->
+
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <img src="customer1.jpg" alt="Customer" />
+          <h3>Emily R.</h3>
+          <p class="stars">★★★★★</p>
+          <p>"The cakes are absolutely divine and beautifully presented!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="customer2.jpg" alt="Customer" />
+          <h3>Michael S.</h3>
+          <p class="stars">★★★★★</p>
+          <p>"Fresh flavors and cozy atmosphere. Highly recommended!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="customer3.jpg" alt="Customer" />
+          <h3>Sarah L.</h3>
+          <p class="stars">★★★★★</p>
+          <p>"Best donuts in town! Soft, sweet and perfectly glazed."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVE TABLE SECTION -->
+    <section class="reserve">
+      <h2>Reserve Your Table</h2>
+      <button>Book Now</button>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+
+      <form
+        action="https://formsubmit.co/YOUR-EMAIL@gmail.com"
+        method="POST"
+        class="contact-form"
+      >
+        <input type="hidden" name="_captcha" value="false" />
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Contact Number" required />
+        <textarea name="message" placeholder="Your Query" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <h3>The Pink Tree</h3>
+          <p>Sweet moments crafted with love.</p>
+        </div>
+
+        <div class="Quick-links">
+          <h4>Quick Links</h4>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>+911212121212</p>
+          <p>thepinktree@email.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOKING POPUP -->
+    <div class="booking-popup" id="bookingPopup">
+      <div class="popup-content">
+        <span class="close-btn" id="closePopup">&times;</span>
+
+        <h2>Book Your Table</h2>
+
+        <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Contact Number"
+            required
+          />
+
+          <input type="date" name="date" required />
+          <input type="time" name="time" required />
+
+          <input type="number" name="guests" placeholder="Guests" required />
+
+          <button type="submit">Confirm Booking</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // select ALL buttons with same id
+        const allBookButtons = document.querySelectorAll("#button1");
+
+        const popup = document.getElementById("bookingPopup");
+        const closeBtn = document.getElementById("closePopup");
+
+        // loop through all buttons
+        allBookButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            popup.style.display = "flex";
+          });
+        });
+
+        // close popup
+        closeBtn.addEventListener("click", function () {
+          popup.style.display = "none";
+        });
+
+        // close when clicking outside
+        window.addEventListener("click", function (e) {
+          if (e.target === popup) {
+            popup.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
